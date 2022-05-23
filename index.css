@@ -1,0 +1,33 @@
+body {
+  background-color: green;
+}
+
+.Knappar {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  font-style: white;
+  font-size: 20px;
+}
+
+.Rubrik {
+  display: flex;
+  justify-content: center;
+}
+
+.bilder {
+  height: 400px;
+  width: 400px;
+  border: 2px solid white;
+  border-radius: 50%;
+  float: left;
+  justify-content: center;
+}
+
+.bild {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  border: 2px solid white;
+  justify-content: flex-start;
+}
